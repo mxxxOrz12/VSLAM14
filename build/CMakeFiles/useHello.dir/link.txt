@@ -1,0 +1,1 @@
+/usr/bin/g++ -g -rdynamic CMakeFiles/useHello.dir/useHello.cpp.o -o useHello  -Wl,-rpath,/home/maxiao/VSLAM_Learn/build libhello_shared.so 
