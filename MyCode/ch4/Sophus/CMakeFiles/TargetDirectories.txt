@@ -1,0 +1,3 @@
+/home/maxiao/VSLAM_Learn/MyCode/ch4/Sophus/CMakeFiles/useSophus.dir
+/home/maxiao/VSLAM_Learn/MyCode/ch4/Sophus/CMakeFiles/edit_cache.dir
+/home/maxiao/VSLAM_Learn/MyCode/ch4/Sophus/CMakeFiles/rebuild_cache.dir

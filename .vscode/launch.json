@@ -8,7 +8,7 @@
       "name": "(gdb) 启动",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/MyCode/ch2/build/useHello",
+      "program": "${workspaceFolder}/MyCode/ch3/build/useHello",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",

@@ -1,0 +1,38 @@
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: /home/maxiao/VSLAM_Learn/MyCode/ch6/ceres/build/CMakeFiles/CMakeScratch/TryCompile-Br2XoI
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_500f3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_500f3.dir/build.make CMakeFiles/cmTC_500f3.dir/build
+gmake[1]: 进入目录“/home/maxiao/VSLAM_Learn/MyCode/ch6/ceres/build/CMakeFiles/CMakeScratch/TryCompile-Br2XoI”
+Building C object CMakeFiles/cmTC_500f3.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sgemm_ -o CMakeFiles/cmTC_500f3.dir/CheckFunctionExists.c.o -c /home/maxiao/VSLAM_Learn/MyCode/ch6/ceres/build/CMakeFiles/CMakeScratch/TryCompile-Br2XoI/CheckFunctionExists.c
+Linking C executable cmTC_500f3
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_500f3.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sgemm_ -rdynamic CMakeFiles/cmTC_500f3.dir/CheckFunctionExists.c.o -o cmTC_500f3 
+/usr/bin/ld: CMakeFiles/cmTC_500f3.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `sgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_500f3.dir/build.make:99：cmTC_500f3] 错误 1
+gmake[1]: 离开目录“/home/maxiao/VSLAM_Learn/MyCode/ch6/ceres/build/CMakeFiles/CMakeScratch/TryCompile-Br2XoI”
+gmake: *** [Makefile:127：cmTC_500f3/fast] 错误 2
+
+
+
+Determining if the function cheev_ exists failed with the following output:
+Change Dir: /home/maxiao/VSLAM_Learn/MyCode/ch6/ceres/build/CMakeFiles/CMakeScratch/TryCompile-LLMV6n
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9bceb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9bceb.dir/build.make CMakeFiles/cmTC_9bceb.dir/build
+gmake[1]: 进入目录“/home/maxiao/VSLAM_Learn/MyCode/ch6/ceres/build/CMakeFiles/CMakeScratch/TryCompile-LLMV6n”
+Building C object CMakeFiles/cmTC_9bceb.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=cheev_ -o CMakeFiles/cmTC_9bceb.dir/CheckFunctionExists.c.o -c /home/maxiao/VSLAM_Learn/MyCode/ch6/ceres/build/CMakeFiles/CMakeScratch/TryCompile-LLMV6n/CheckFunctionExists.c
+Linking C executable cmTC_9bceb
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9bceb.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=cheev_ -rdynamic CMakeFiles/cmTC_9bceb.dir/CheckFunctionExists.c.o -o cmTC_9bceb  /usr/lib/x86_64-linux-gnu/libblas.so /usr/lib/x86_64-linux-gnu/libf77blas.so /usr/lib/x86_64-linux-gnu/libatlas.so -lm -ldl 
+/usr/bin/ld: CMakeFiles/cmTC_9bceb.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `cheev_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_9bceb.dir/build.make:102：cmTC_9bceb] 错误 1
+gmake[1]: 离开目录“/home/maxiao/VSLAM_Learn/MyCode/ch6/ceres/build/CMakeFiles/CMakeScratch/TryCompile-LLMV6n”
+gmake: *** [Makefile:127：cmTC_9bceb/fast] 错误 2
+
+
+
