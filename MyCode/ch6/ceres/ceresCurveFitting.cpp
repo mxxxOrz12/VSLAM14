@@ -20,7 +20,7 @@ struct CURVE_FITTING_COST
     const double _x, _y;
 };
 
-int main(int agrc, char *argv[])
+int main(int argc, char *argv[])
 {
     double ar = 1.0, br = 2.0, cr = 1.0;
     double ae = 2.0, be = -1.0, ce = 5.0;
@@ -32,7 +32,7 @@ int main(int agrc, char *argv[])
     vector<double> x_data, y_data;
     for (int i = 0; i < N; i++)
     {
-        double x = i / 100;
+        double x = i / 100.0;
         x_data.push_back(x);
         y_data.push_back(exp(ar * x * x + br * x + cr) + rng.gaussian(w_sigma * w_sigma));
     }
@@ -61,7 +61,7 @@ int main(int agrc, char *argv[])
 
     cout << summary.BriefReport() << endl;
     cout << "estimated a,b,c = ";
-    for (auto &a : abc)
+    for (auto a : abc)
     {
         cout << a << ", ";
     }
