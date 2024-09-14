@@ -261,15 +261,29 @@ https://blog.csdn.net/m0_51913750/article/details/130879949
 
 
 
+## lambda表达式
+
+一个lambda表达式表示一个可调用的代码单元，将其理解为一个未命名的内联函数。一个lambda具有一个返回类型、一个参数列表和一个函数体
+
+https://blog.csdn.net/m0_60134435/article/details/136151698
+
+Lambda表达式的优点
+
+Lambda表达式相比于普通函数和普通类，有几个优点：
+
+- 简洁：Lambda表达式省去函数名和类名，直接定义和使用
+- 灵活：Lambda表达式可捕获外部变量，作为函数参数或返回值
+- 安全：可以控制外部变量的访问方式，避免全局变量的定义，避免悬空指针和无效引用
 
 
 
 
 
+## C++ 位操作
 
 
 
-
+https://www.cnblogs.com/zhoug2020/p/4978822.html
 
 
 
